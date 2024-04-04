@@ -11,9 +11,12 @@
     "build-storybook": "ng run angular-storybook:build-storybook",
     "chromatic": "npx chromatic --project-token=chpt_d693930235ebf25"
   },
-
-  "release": {"branches": ["master", "next"]},
-
+  "release": {
+    "branches": [
+      "master",
+      "next"
+    ]
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^16.0.0",
@@ -34,6 +37,10 @@
     "@angular/cli": "~16.0.3",
     "@angular/compiler-cli": "^16.0.0",
     "@compodoc/compodoc": "^1.1.23",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.0",
+    "@semantic-release/release-notes-generator": "^13.0.0",
     "@storybook/addon-designs": "^7.0.9",
     "@storybook/addon-docs": "^7.6.17",
     "@storybook/addon-essentials": "^7.6.17",
@@ -53,9 +60,8 @@
     "karma-jasmine-html-reporter": "~2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "semantic-release": "^23.0.6",
+    "semantic-release": "^23.0.7",
     "storybook": "^7.6.17",
     "typescript": "~5.0.2"
-
   }
 }
