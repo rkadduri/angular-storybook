@@ -11,6 +11,9 @@
     "build-storybook": "ng run angular-storybook:build-storybook",
     "chromatic": "npx chromatic --project-token=chpt_d693930235ebf25"
   },
+
+  "release": {"branches": ["master", "next"]},
+
   "private": true,
   "dependencies": {
     "@angular/animations": "^16.0.0",
@@ -53,5 +56,6 @@
     "semantic-release": "^23.0.6",
     "storybook": "^7.6.17",
     "typescript": "~5.0.2"
+
   }
 }
